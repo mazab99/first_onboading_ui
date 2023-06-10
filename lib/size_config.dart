@@ -7,6 +7,7 @@ class SizeConfig {
   static double? blockH;
   static double? blockV;
 
+
   void init(BuildContext context) {
     _mediaQueryData = MediaQuery.of(context);
     screenW = _mediaQueryData!.size.width;
